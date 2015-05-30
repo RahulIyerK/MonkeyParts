@@ -1,0 +1,65 @@
+/*FunkyParts Stylesheet*/
+
+
+body {
+	background-color:#F0F0F0;
+}
+
+h1 {
+	text-align: center;
+	font-size:30px;
+}
+.create_button
+{
+	background:#FFF;
+	width:150px;
+	height: 30px;
+}
+.delete_button
+{
+	background: #C33;
+	color:#FFF;
+}
+
+.create_bar
+{
+	margin:auto;
+	width: 700px;
+}
+.spacer
+{
+	height: 20px;
+}
+#form_container {
+	margin-top: 30px;
+	width: 300px;
+
+}
+.splitter_div
+{
+	border-bottom: 2px solid gray;
+}
+.project_header_td
+{
+	width: 100px;
+	text-align: center;
+	border: 2px solid gray;
+}
+.project_td
+{
+	width: 100px;
+	border-bottom: 2px dotted gray;
+	text-align:center;
+}
+#project_table
+{
+	border: 2px solid gray;
+}
+
+.dashboard_area
+{
+	padding: 20px;
+	width: 1000px;
+	margin: auto; 	
+	background: #FFF;
+}
