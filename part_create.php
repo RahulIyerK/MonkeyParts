@@ -1,3 +1,6 @@
+<?php
+  include("header.php");
+?>
 <html>
 <head>
 	<link rel="stylesheet" type="text/css" href="sitestyle.css">

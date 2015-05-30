@@ -1,3 +1,6 @@
+<?php
+  include("header.php");
+?>
 <!DOCTYPE html>
 <html>
 	<head>
@@ -11,6 +14,7 @@
 	</script>
 	</head>
 	<body>
+    <p style="font-size:12px"> <a href="logout.php">Logout</a> </p>
 		<h1> Project Dashboard </h1>
         <div class="create_bar">
         <table align="center">

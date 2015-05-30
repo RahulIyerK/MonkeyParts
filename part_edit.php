@@ -1,3 +1,6 @@
+<?php
+  include("header.php");
+?>
 <head>
 <title>Edit Part</title>
 	<link rel="stylesheet" type="text/css" href="sitestyle.css">

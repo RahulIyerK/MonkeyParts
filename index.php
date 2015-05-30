@@ -1,3 +1,6 @@
+<?php
+  include("header.php");
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -28,6 +31,7 @@
 			$pass = isset($_POST['pass']) ? ($_POST['pass']) : '';
 			if (($user=="shopmanager") && ($pass=="banana"))
 			{
+				$_SESSION["username"] = "set";
 				header("Location: home.php");
 			}
 		?>

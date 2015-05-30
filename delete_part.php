@@ -1,4 +1,7 @@
 <?php
+  include("header.php");
+?>
+<?php
 session_start();
 $id = isset($_GET['id']) ? ($_GET['id']) : '';
 $db = "monkeypartsdb";
