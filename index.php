@@ -1,6 +1,3 @@
-<?php
-  include("header.php");
-?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -26,7 +23,6 @@
         <button onclick="submitb()"> Enter </button>
   		<?php
 		session_start();
-		
 			$user = isset($_POST['user']) ? ($_POST['user']) : '';
 			$pass = isset($_POST['pass']) ? ($_POST['pass']) : '';
 			if (($user=="shopmanager") && ($pass=="banana"))

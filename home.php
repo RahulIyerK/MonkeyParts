@@ -54,7 +54,6 @@
     <div class="dashboard_area">
     
     <?php
-	session_start();
 	$filter_project = isset($_POST['filterproject']) ? ($_POST['filterproject']) : '';
 	$query = "SELECT * FROM projects WHERE id=$filter_project";
 	$result = $con->query($query);
